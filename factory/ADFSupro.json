@@ -1,0 +1,9 @@
+{
+	"name": "ADFSupro",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "31768a0a-f892-46ce-872f-11225e6f48b2",
+		"tenantId": "33c2bc5c-f160-4b1f-99ce-ce54bed3f0eb"
+	}
+}

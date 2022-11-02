@@ -1,0 +1,15 @@
+{
+	"name": "ls_AzBlobStorage",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"serviceEndpoint": "https://azblobstrac.blob.core.windows.net/",
+			"accountKind": "StorageV2",
+			"credential": {
+				"referenceName": "firstcredential",
+				"type": "CredentialReference"
+			}
+		}
+	}
+}
