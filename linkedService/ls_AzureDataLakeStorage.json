@@ -1,0 +1,14 @@
+{
+	"name": "ls_AzureDataLakeStorage",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://azdlakestgsc.dfs.core.windows.net/",
+			"credential": {
+				"referenceName": "firstcredential",
+				"type": "CredentialReference"
+			}
+		}
+	}
+}
